@@ -18,3 +18,16 @@ h1 {
 .vertical-heading {
   color: black;
 }
+
+.vertical-heading ul {
+  display: block;
+  padding-left: 0px;
+  list-style-type: none;
+  position: fixed;
+  overflow: auto;
+}
+
+.vertical-heading li {
+  margin: 20px;
+  cursor: pointer;
+}
