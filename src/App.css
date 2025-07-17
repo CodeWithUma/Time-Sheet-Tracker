@@ -20,14 +20,24 @@ h1 {
 }
 
 .vertical-heading ul {
-  display: block;
-  padding-left: 0px;
   list-style-type: none;
   position: fixed;
   overflow: auto;
+  width: 15%;
+  height: 100%;
+  background-color: lightgreen;
+  margin: 0;
+  padding: 0;
 }
 
 .vertical-heading li {
+  display: block;
   margin: 20px;
   cursor: pointer;
+}
+
+.vertical-heading li:hover:not(.active) {
+  background-color: #555;
+  color: white;
+  padding: 8px 12px;
 }

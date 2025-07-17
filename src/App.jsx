@@ -1,4 +1,8 @@
-import './App.css'
+import './App.css';
+
+const user = {
+  name: 'Uma Prasad Das'
+}
 
 function App() {
 
@@ -9,7 +13,7 @@ function App() {
       </div>
       <div className='vertical-heading'>
         <ul>
-          <li>Name of the Employee</li>
+          <li>{user.name}</li>
           <li>Change Password</li>
           <li>Add New Task</li>
           <li>View My Task</li>
